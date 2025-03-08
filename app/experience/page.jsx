@@ -58,7 +58,7 @@ const techIcons = {
   Figma: <SiFigma />,
 };
 
-export const experienceData = {
+const experienceData = {
   techJobs: [
     {
       title: "Software Engineering Intern (WebApp, iOS)",

@@ -7,7 +7,6 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 export default function HeroSection() {
   return (
     <Container maxWidth="lg" sx={{ px: { xs: 2, sm: 3 } }}>
-      {" "}
       {/* Adjusted padding */}
       <Box
         sx={{
@@ -69,6 +68,7 @@ export default function HeroSection() {
               justifyContent: "flex-start",
               flexWrap: "wrap", // Allow buttons to wrap on small screens
               width: "100%", // Ensure full width
+              mb: 4,
             }}
           >
             <Button

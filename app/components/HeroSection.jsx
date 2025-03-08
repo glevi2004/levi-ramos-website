@@ -6,23 +6,26 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 
 export default function HeroSection() {
   return (
-    <Container>
+    <Container maxWidth="lg" sx={{ px: { xs: 2, sm: 3 } }}>
+      {" "}
+      {/* Adjusted padding */}
       <Box
         sx={{
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
           height: "90vh",
+          width: "100%", // Ensure box takes full width
         }}
       >
-        {/* Content */}
         <Box
           sx={{
             maxWidth: "800px",
+            width: "100%", // Ensure inner box takes full width
             display: "flex",
             flexDirection: "column",
             textAlign: "left",
-            marginLeft: { xs: "12px", md: "0" },
+            marginLeft: { xs: 0, md: 0 }, // Remove left margin on mobile
           }}
         >
           <Typography
@@ -62,20 +65,26 @@ export default function HeroSection() {
           <Box
             sx={{
               display: "flex",
-              gap: 2,
+              gap: { xs: 1, sm: 2 }, // Reduce gap on mobile
               justifyContent: "flex-start",
+              flexWrap: "wrap", // Allow buttons to wrap on small screens
+              width: "100%", // Ensure full width
             }}
           >
             <Button
               variant="contained"
-              startIcon={<LinkedInIcon sx={{ fontSize: "1.3rem" }} />}
+              startIcon={
+                <LinkedInIcon
+                  sx={{ fontSize: { xs: "1.1rem", sm: "1.3rem" } }}
+                />
+              }
               href="https://www.linkedin.com/in/gabrielleviramos/"
               target="_blank"
               sx={{
                 textTransform: "none",
-                fontSize: "1rem",
+                fontSize: { xs: "0.875rem", sm: "1rem" }, // Smaller font on mobile
                 py: 1,
-                px: 2,
+                px: { xs: 1.5, sm: 2 }, // Reduced padding on mobile
               }}
             >
               LinkedIn

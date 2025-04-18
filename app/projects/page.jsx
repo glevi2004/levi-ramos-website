@@ -73,6 +73,17 @@ const techIcons = {
 
 const projectsData = [
   {
+    title: "Saga Website",
+    type: "freelance",
+    client: "Saga",
+    period: "April 2025",
+    description: [
+      "Built and deployed the marketing website for Saga, a startup, using Next.js and Tailwind CSS.",
+    ],
+    technologies: ["JavaScript", "Next.js", "Material-UI"],
+    link: "https://saga-website-nine.vercel.app/",
+  },
+  {
     title: "E-commerce Web App",
     type: "freelance",
     client: "BPM Watches",
@@ -89,7 +100,7 @@ const projectsData = [
       "Sanity.io",
       "Figma",
     ],
-    link: "https://bpm-watches.vercel.app/",
+    link: "https://bpmwatches.com/",
   },
   {
     title: "Resume Web App",
@@ -110,7 +121,7 @@ const projectsData = [
     description: [
       "Website for Brazilian students to rate their professors and share tips.",
       "Designed the front end with Figma and developed it using Next.js and Material UI.",
-      "Currently building a NoSQL database of Brazilian universities and professors using Python, Beautiful Soup, and Scrapy for web scraping.",
+      "Currently building a database of Brazilian universities and professors using Python, Beautiful Soup, and Scrapy for web scraping.",
     ],
     technologies: [
       "JavaScript",
@@ -124,7 +135,7 @@ const projectsData = [
     ],
   },
   {
-    title: "My Website",
+    title: "This Website",
     type: "personal",
     period: "2024",
     description: [

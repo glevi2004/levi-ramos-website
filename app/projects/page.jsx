@@ -143,6 +143,7 @@ const projectsData = [
       "Implemented using Next.js and Material-UI",
     ],
     technologies: ["Next.js", "Material-UI", "Figma"],
+    github: "https://github.com/glevi2004/levi-ramos-website",
   },
 ];
 

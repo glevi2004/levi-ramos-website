@@ -80,8 +80,8 @@ const projectsData = [
     description: [
       "Built and deployed the marketing website for Saga, a startup, using Next.js and Tailwind CSS.",
     ],
-    technologies: ["JavaScript", "Next.js", "Material-UI"],
-    link: "https://saga-website-nine.vercel.app/",
+    technologies: ["JavaScript", "Next.js", "Tailwind CSS"],
+    link: "https://sagaed.com/",
   },
   {
     title: "E-commerce Web App",
